@@ -1,5 +1,4 @@
 ---
-layout: sigle
 title: Day 3 Greedy Algorithm - Law Of Numbers 
 ---
 
