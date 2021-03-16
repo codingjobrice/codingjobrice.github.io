@@ -39,4 +39,49 @@ int main() {
 }
 ```
 
+---
 2 반복문
+
+
+```{.cpp}
+#include <stdio.h>
+
+void BubbleSort(int arr[], int n) {
+	for (int k = 0; k < n-1; k++) {
+		for (int i = 0; i < n-k-1; i++) {
+			if (arr[i + 1] < arr[i]) {
+				int tmp = arr[i];
+				arr[i] = arr[i + 1];
+				arr[i + 1] = tmp;
+			}
+		}
+	}
+}
+
+int main() {
+	int arr[] = { 5,2,3,1,4 };
+	int n = sizeof(arr)/sizeof(int);
+	int m = 5;
+	int k = 3;
+	int result = 0;
+	BubbleSort(arr,n);
+
+	int first = arr[n-1];
+	int second = arr[n - 2];
+
+	while (1) {
+		for (int i = 0; i < k; i++) {
+			if (m == 0)
+				break;
+			result += first;
+			m--;
+		}
+		if (m == 0) {
+			break;
+		}
+		result += second;
+		m--;
+	}
+	printf("%d", result);
+}
+```
