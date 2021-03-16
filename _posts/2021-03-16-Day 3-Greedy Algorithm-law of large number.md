@@ -1,6 +1,6 @@
 ---
 layout: sigle
-title: Day-3
+title: Day 3 Greedy Algorithm - Law Of Numbers 
 ---
 
 그리디 알고리즘의 예시 중 큰 수의 법칙을 코드화 시켜보았다. 
