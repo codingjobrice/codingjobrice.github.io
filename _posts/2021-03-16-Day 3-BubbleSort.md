@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Day-3"
+title: "Day 3 BubbleSort"
 ---
 
 오늘은 버블정렬입니다. 버블정렬은 각 수의 앞 뒤를 비교하며 자리를 바꿔주며 정렬해주는 방식입니다. 
