@@ -1,6 +1,6 @@
 ---
-layout:single
-title:Greedy Algorithm - Card Game
+layout: single
+title: Greedy Algorithm - Card Game
 ---
 
 
