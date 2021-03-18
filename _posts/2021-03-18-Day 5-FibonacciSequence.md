@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Day 6 Fibonacci Sequence
+title: Day 5 Fibonacci Sequence
 ---
 
 재귀적 용법 중 대표적인 예시인 피보나치 수열에 대해 코딩해보았다.
