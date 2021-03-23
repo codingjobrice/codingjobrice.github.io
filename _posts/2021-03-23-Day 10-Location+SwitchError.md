@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Location + SwitchError
+title: Day 10 Location + SwitchError
 ---
 
 가로, 세로 정방행렬의 크기를 n으로 입력 받고 6자리 문자열을 입력 받아 R이면 오른쪽 한칸으로 움직이게 하는 역할을 하며 L,U,D도 각각의 역할을 가진다. 출력값은 6개의 이동 후 좌표이다.
