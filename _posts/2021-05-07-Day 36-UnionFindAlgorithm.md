@@ -9,7 +9,7 @@ Union-Find 알고리즘은 서로소 집합 알고리즘 이라고도 하며 서
 
 findParent 함수로 부모 노드를 반환시키고 unionParent 함수로 a,b(a<b) a를 b의 부모로 설정해준다.
 
----{.cpp}
+```{.cpp}
 #include<stdio.h>
 
 int v, e; //v 노드, e 간선
@@ -63,3 +63,5 @@ int main() {
 ```
 
 소스코드는 "이것이 코딩 테스트다"를 참고하였다.
+
+위의 코드의 시간 복잡도는 O(VM) 이다.
