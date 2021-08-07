@@ -16,7 +16,7 @@ title: Day 57 InterpolationSearch
 #include <stdio.h>
 
 int ISearch(int arr[], int first,int last,int target) {
-	if (first > last)
+	if (arr[first]>target || arr[last]< target)
 		return false;
 
 	int mid = ((double)(target - arr[first]) / (arr[last] - arr[first]) * (last - first)) + first;
